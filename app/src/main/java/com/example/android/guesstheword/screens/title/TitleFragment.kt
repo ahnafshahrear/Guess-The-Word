@@ -1,4 +1,6 @@
 /*
+
+ * Ahnaf Shahrear Khan
  * Copyright 2018, The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,14 +28,10 @@ import androidx.navigation.fragment.findNavController
 import com.example.android.guesstheword.R
 import com.example.android.guesstheword.databinding.TitleFragmentBinding
 
-/**
- * Fragment for the starting or title screen of the app
- */
 class TitleFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View {
-        // Inflate the layout for this fragment
         val binding: TitleFragmentBinding = DataBindingUtil.inflate(
                 inflater, R.layout.title_fragment, container, false)
 
